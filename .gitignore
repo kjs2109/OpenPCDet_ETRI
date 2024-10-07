@@ -1,0 +1,11 @@
+/output/
+/build/
+/*.egg-info/
+/data/*/gt_database/
+/data/*/labels/
+/data/*/points/
+/data/*/*.pkl
+
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
