@@ -120,7 +120,7 @@ class CustomAvDataset(DatasetTemplate):
             return 'No ground-truth boxes for evaluation', {}
 
         def kitti_eval(eval_det_annos, eval_gt_annos, map_name_to_kitti):
-            from ..kitti.kitti_object_eval_python import eval_martin as kitti_eval
+            from ..kitti.kitti_object_eval_python import eval as kitti_eval
             from ..kitti import kitti_utils
             map_name_to_kitti = {
                 'Vehicle': 'Car',
